@@ -1,0 +1,28 @@
+{
+  "receiptItems": [
+    {
+      "id": 1,
+      "name": "Pomidory",
+      "price": 10.99,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "name": "Kakao",
+      "price": 5.49,
+      "quantity": 1
+    },
+    {
+      "name": "maliny",
+      "price": 2.98,
+      "quantity": 5,
+      "id": 3
+    },
+    {
+      "name": "Kakao",
+      "price": 5.49,
+      "quantity": 2,
+      "id": 4
+    }
+  ]
+}

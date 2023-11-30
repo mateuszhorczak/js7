@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Paragon</title>
+</head>
+<body>
+
+<div id="receipt"></div>
+<button onclick="openDialog()">Dodaj pozycję</button>
+
+<dialog id="itemDialog">
+    <form id="itemForm">
+        <label for="itemName">Nazwa:</label>
+        <input type="text" id="itemName" required>
+
+        <label for="itemPrice">Cena jednostkowa:</label>
+        <input type="number" id="itemPrice" min="0" step="0.01" required>
+
+        <label for="itemQuantity">Ilość:</label>
+        <input type="number" id="itemQuantity" min="1" required>
+
+        <button type="button" onclick="addItem()">Dodaj</button>
+        <button type="button" onclick="editItem()">Edytuj</button>
+        <button type="button" onclick="cancelEdit()">Anuluj</button>
+    </form>
+</dialog>
+
+</body>
+</html>
